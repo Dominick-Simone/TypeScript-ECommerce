@@ -1,11 +1,12 @@
 import React from 'react'
 import Header from "../components/Header" 
-import Order from "../components/Order" 
+import Hero from "../components/Hero" 
+import Footer from "../components/Footer"
 const Home = () => {
   return (
     <>
         <Header />
-        <Order />
+        <Hero />
     </>
   )
 }
