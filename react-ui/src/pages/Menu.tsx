@@ -1,9 +1,13 @@
 import React from 'react'
-
+import Header from "../components/Header"
+import MenuTemplate from "../components/MenuTemplate"
 const Menu = () => {
-  return (
-    <div>Menu</div>
-  )
+    return (
+        <>
+            <Header />
+            <MenuTemplate />
+        </>
+    )
 }
 
 export default Menu
